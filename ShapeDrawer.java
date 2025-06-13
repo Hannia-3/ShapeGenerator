@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ShapeDrawer {
 
     public static void main(String[] args) {
-        Scaneer input = new Scanner(System.in);
+        Scaner input = new Scanner(System.in);
         System.out.println("Enter number that ranges between 3-8: ");
         int sides = input.nextInt();
 
@@ -56,7 +56,7 @@ public class ShapeDrawer {
         System.out.println("      *   *    ");
         System.out.println("    *       *  ");
         System.out.println("    *       *  ");
-        System.put.println("    *********  ");
+        System.out.println("    *********  ");
     }
 
    public static void drawHexagon() {
