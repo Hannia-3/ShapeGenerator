@@ -4,8 +4,16 @@ public class ShapeDrawer {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter number that ranges between 3-8: ");
-        int sides = input.nextInt();
+        int numbSides;
+
+        while (true) {
+            System.out.println("Enter number that ranges between 3-8 or 0 to exit: ");
+            numbSides = input.nextInt();
+
+            if (numbSides == 0) {
+                System.out.println("Goodbye!");
+                break;
+            }
 
         if (sides < 3 || sides > 8) {
             System.out.println("Invalid number. Please enter a number between 3 and 8.");
