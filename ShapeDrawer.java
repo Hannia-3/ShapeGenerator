@@ -17,14 +17,15 @@ public class ShapeDrawer {
 
         if (sides < 3 || sides > 8) {
             System.out.println("Invalid number. Please enter a number between 3 and 8.");
-        } else {
-            drawShape(sides);
+            continue;
         }
+            drawShape(numbSides);
+     }
         input.close();
     }
 
-    public static void drawShape(int sides) {
-        switch (sides) {
+    public static void drawShape(int numbSides) {
+        switch (numbSides) {
           case 3:
               drawTriangle();
               break;
