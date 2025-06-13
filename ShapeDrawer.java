@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ShapeDrawer {
 
     public static void main(String[] args) {
-        Scaner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("Enter number that ranges between 3-8: ");
         int sides = input.nextInt();
 
