@@ -15,7 +15,7 @@ public class ShapeDrawer {
                 break;
             }
 
-        if (sides < 3 || sides > 8) {
+        if (numbSides < 3 || numbSides > 8) {
             System.out.println("Invalid number. Please enter a number between 3 and 8.");
             continue;
         }
